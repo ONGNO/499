@@ -1,0 +1,19 @@
+.button {
+  padding: 9px 20px;
+  background-color: #636464;
+  color: white;
+  border: none;
+  border-radius: 35px; /* ปรับให้มีค่ามากขึ้นเพื่อสร้างรูปทรงรี */
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* หรือขนาดที่ต้องการ */
+}
